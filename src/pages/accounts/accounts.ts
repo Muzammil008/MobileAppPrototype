@@ -28,9 +28,10 @@ export class AccountsPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad AccountsPage');
   }
-  ionViewDidEnter() {
+  ionViewWillEnter() {
+   
     $('body').on('click', '.slide-header--card', function (e) {
-      e.preventDefault();
+    //  e.preventDefault();
       $(this).closest('.slide-header').toggleClass('changed');
       //alert('YES!');
     });
