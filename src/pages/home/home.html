@@ -1,14 +1,62 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Proto Types
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+
+  <ion-list>
+    <ion-item-sliding>
+
+      <ion-item (click)="gotoAccounts()">
+        <ion-avatar item-start>
+          <img src="https://photos-1.dropbox.com/t/2/AADQ8lux0ctE4yGsYhHC6QyAnMqJbHHW49rVtXBqZBfhEg/12/696667752/jpeg/32x32/1/_/1/9/accounts.mp4/EPDl6tAPGOYwIAIoAg/BNc_kCeMYelBpiabhkPhNzBD5Z6dkl5Yd68deNpY-e7BydkmGW5fGQBQdS6x4wCp_AC4CO4lC5UCfHYtVxyHUMhTedHC8DQp6ZtXSpyrTT-0TJWis5xDfm3pgOa1w1_3tJk?size=32x32&size_mode=1">
+        </ion-avatar>
+        <h2>accounts.mp4</h2>
+      </ion-item>
+
+      <ion-item (click)="gotoBlockCard()">
+        <ion-avatar item-start>
+          <img src="https://photos-1.dropbox.com/t/2/AACyuaAxN12nnTDT_75Dj7Rx0t2el_HhX9QWIYh15TXfsg/12/696667752/jpeg/32x32/1/_/1/9/block_card.mp4/EPDl6tAPGOYwIAIoAg/BNdDgfpFTSq-AetvbFw5qw_kc3-GudTWcwxzgXvD2cGYk8ptR6sRMXVMFXYQmtLhFYNxce7m758BDsS7mSiRZNvmw8d3ZAn_cypFODBvSuIGndq11Lwd7ELntsosYzGbd9Y?size=32x32&size_mode=1" alt="">
+        </ion-avatar>
+        <h2>block_card.mp4</h2>
+      </ion-item>
+
+      <ion-item (click)="gotoExpenseChart()">
+        <ion-avatar item-start>
+          <img src="https://photos-1.dropbox.com/t/2/AAD_Wi9L0Po4OLR-7AOfZ-tQWRQU-goLHwD_P0UugD5SeQ/12/696667752/jpeg/32x32/1/_/1/9/expense-chart.mp4/EPDl6tAPGOYwIAIoAg/BNelOw_xH-VQM4XM7ATJTcoqQDxcL3mazF4lvTyOhoFE_BcGmg_iABulKJINauTcVM4xrICTw644sz2EIZriSepxx8HTZ7myVL_B7ERDY-eBzeWE64IaFtLpZCYrDGNyst8?size=32x32&size_mode=1" alt="">
+        </ion-avatar>
+        <h2>expense-chart.mp4</h2>
+      </ion-item>
+
+      <ion-item (click)="gotoOTP()">
+        <ion-avatar item-start>
+          <img src="https://photos-1.dropbox.com/t/2/AAA_sWSz79QoDef_ZbcGFBGQvJK3RiotY2SpzOnTGQYmoQ/12/696667752/jpeg/32x32/1/_/1/9/OTP.mp4/EPDl6tAPGOYwIAIoAg/BNf9Gn5SM1TCrvsJf3bg7HYxqKlhnv1oTHOsRR0lFGRvVbMIUSH0SRDIZzQuXvCWP4gg8e4OqBz0jivbwxSBsMIM0Lyy8SIe3hROxKzFQwdQxwqXU0b6b8jx0axOFJQqc2s?size=32x32&size_mode=1" alt="">
+        </ion-avatar>
+        <h2>OTP.mp4</h2>
+      </ion-item>
+
+      <ion-item-options side="left">
+        <button ion-button color="primary">
+          <ion-icon name="text"></ion-icon>
+          Text
+        </button>
+        <button ion-button color="secondary">
+          <ion-icon name="call"></ion-icon>
+          Call
+        </button>
+      </ion-item-options>
+
+      <ion-item-options side="right">
+        <button ion-button color="primary">
+          <ion-icon name="mail"></ion-icon>
+          Email
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+
 </ion-content>
