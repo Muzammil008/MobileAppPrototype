@@ -26,13 +26,7 @@ export class BlockcardPage {
 
   ionViewDidEnter(){
 
-    $('body').on('click','.block-loader',function(e){
-      e.preventDefault();
-      $(this).addClass('waiting');
-      setTimeout(() => {
-        $(this).removeClass('waiting').addClass('activated');
-      }, 2500);
-    });
+    
 
   }
 

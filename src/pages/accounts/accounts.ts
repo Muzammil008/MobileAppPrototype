@@ -30,11 +30,7 @@ export class AccountsPage {
   }
   ionViewWillEnter() {
    
-    $('body').on('click', '.slide-header--card', function (e) {
-    //  e.preventDefault();
-      $(this).closest('.slide-header').toggleClass('changed');
-      //alert('YES!');
-    });
+    
   }
   changedHeader(event): void {
     //(this.headerStatus == false) event

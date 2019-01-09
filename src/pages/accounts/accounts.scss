@@ -31,8 +31,8 @@ page-accounts {
         height: 100vh;
 
         transition-property: min-height, height;
-        transition-duration: 1s, 1s;
-        transition-delay: 0s, 0s;
+        transition-duration: 0.5s, 0.5s;
+        transition-delay: 0.2s, 0.2s;
 
         &::before{
             content: "";
@@ -92,7 +92,7 @@ page-accounts {
             height: 54vh;
             
             transition-property: opacity, visibility, height, margin;
-            transition-duration: 2s, 2s, 1s, 0s;
+            transition-duration: 2s, 2s, 0.5s, 0s;
             transition-delay: 0.5s, 0.5s, 0.2s, 0.5s;
 
             [class*="heading-"],
@@ -110,7 +110,7 @@ page-accounts {
             height: 200px;
             min-height: 200px;
             transition-property: min-height, height;
-            transition-duration: 1s, 1s;
+            transition-duration: 0.5s, 0.5s;
             transition-delay: 0s, 0s;
 
             .slide-header-content{
@@ -121,7 +121,7 @@ page-accounts {
                 margin: 0;
                 
                 transition-property: opacity, visibility, height, margin;
-                transition-duration: 1s, 1s, 1s, 0.5s;
+                transition-duration: 1s, 1s, 0.5s, 0s;
                 transition-delay: 0s, 0s, 0s, 0s;
             }
 
