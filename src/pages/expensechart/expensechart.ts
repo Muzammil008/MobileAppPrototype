@@ -737,8 +737,8 @@ export class ExpensechartPage {
       $(this).find('.animated').removeClass(animation);
 
       // Show Data
-      $('.card:not(.active) .card--current-balance').show();
-      $('.card .wrap').show(600);
+      $('.card:not(.active) .card--current-balance').fadeIn(600);
+      $('.card .wrap').fadeIn(600);
     });
   }
 }
